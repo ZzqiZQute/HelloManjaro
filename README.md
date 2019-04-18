@@ -106,7 +106,7 @@
         source ~/.zshrc
         ```
 
-  - 安装 `zsh-autosuggestions` [(zsh-autosuggestions)](https://github.com/zsh-users/autosuggestions)
+  - 安装 `zsh-autosuggestions` [(zsh-autosuggestions)](https://github.com/zsh-users/zsh-autosuggestions)
     
     * 克隆`zsh-autosuggestions`仓库
     
