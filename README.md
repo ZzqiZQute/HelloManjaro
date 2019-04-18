@@ -8,11 +8,13 @@
 
   打开`/etc/pacman.conf`,添加如下文本
   
-  >[archlinuxcn]
+  ```plain
+  [archlinuxcn]
 
-  >SigLevel = Optional TrustedOnly
+  SigLevel = Optional TrustedOnly
 
-  >Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+  Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+  ```
     
 * 安装`archlinuxcn-keyring`
 
@@ -121,17 +123,17 @@
 * 使用`vim`
 
   - 安装`vim`本体
-
-        ```shell
-        sudo pacman -S vim
-        ```
+  
+      ```shell
+      sudo pacman -S vim
+      ```
         
   - 安装`The Ultimate Vim Configuration`[(The Ultimate Vim Configuration)](https://github.com/amix/vimrc)
         
-        ```shell
-        git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-        sh ~/.vim_runtime/install_awesome_vimrc.sh
-        ```
+      ```shell
+      git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+      sh ~/.vim_runtime/install_awesome_vimrc.sh
+      ```
 
   - 安装`Vundle`(此处不再过多说明Vundle的配置方法，可以点击链接进行查看)[(Vundle)](https://github.com/VundleVim/Vundle.vim)
 
