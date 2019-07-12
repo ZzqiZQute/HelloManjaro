@@ -95,7 +95,7 @@
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
         ```
         
-    * 打开`~/,zshrc`添加`zsh-syntax-highlighting`插件
+    * 打开`~/.zshrc`添加`zsh-syntax-highlighting`插件
     
         ```shell
         plugins=( [plugins...] zsh-syntax-highlighting)
